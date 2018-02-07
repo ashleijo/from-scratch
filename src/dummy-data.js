@@ -2,8 +2,28 @@ const dummyData = [
     {
         thumbnailUrl: 'https://d23fkpqlfgpce7.cloudfront.net/wp-content/uploads/avatars/10660/avatar_10660-1504618429-bpfull.png',
         fullname: 'Boilerdang Coggleswort',
-        connections: 1,
+        connections: 1000001,
         title: "Doer of Stuff",
+        comments: [
+              {
+                username: "philzcoffee",
+                text: "We've got more than just delicious coffees to offer at our shops!"
+              },
+            {
+                username: "biancasaurus",
+                text: "Looks delicious!"
+            },
+            {
+                username: "martinseludo",
+                text: "Can't wait to try it!"
+            }
+        ]
+    },
+    {
+        thumbnailUrl: 'https://static1.squarespace.com/static/53ff8e5be4b0eac43b519302/t/59a6dc386f4ca38487a55a72/1504107597635/11196265_999874316712_5020356714001923454_n.png',
+        fullname: 'Burberry Cuckatoo',
+        connections: 1,
+        title: "Fixer of Objects",
         comments: [
               {
                 username: "philzcoffee",

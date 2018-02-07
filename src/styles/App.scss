@@ -9,10 +9,10 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #656565;
+  height: 15px;
   padding: 20px;
-  color: white;
+  color: #ceddde;
 }
 
 .App-title {
@@ -21,6 +21,13 @@
 
 .App-intro {
   font-size: large;
+}
+
+.flex-this {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {

@@ -17,16 +17,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
         </header>
-        <div>
+        <div className="flex-this">
           {this.state.posts.map((post, i) => {
             return (
-              <div className="App-posts">
                 <PersonContainer key={i} fullname={post.fullname} thumbnailUrl={post.thumbnailUrl}
                  connections={post.connections} title={post.title}
                     comments={JSON.stringify(post.comments)} />
-              </div>);
+              );
             })}
         </div>
       </div>
