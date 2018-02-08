@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box; }
+
+.fullname {
+  font-weight: bold;
+  padding: 2px; }
+
+.title {
+  padding-bottom: 2px;
+  font-size: 12px; }
+
+.person-container {
+  display: inline-block;
+  padding: 10px;
+  width: 237px;
+  color: #464646;
+  border: solid 1px darkgrey; }
+
+.connect-button {
+  margin-top: 15px;
+  background-color: #f7f7f7;
+  color: #f6956e;
+  padding: 5px 13px;
+  border: solid 2px #f6956e;
+  font-weight: bold;
+  font-size: 14px; }
+
+.connect-button:hover {
+  background-color: #f7d6c9; }
+
+.thumbnail {
+  width: 90px;
+  height: 90px; }

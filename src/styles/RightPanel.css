@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; }
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px darkgrey;
+  width: 400px;
+  height: 100%;
+  background-color: #f7f7f7;
+  color: #464646;
+  box-shadow: 0px 3.5px darkgrey; }
+
+.first-line {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.promoted {
+  float: left;
+  font-size: 18px; }
+
+.dotdotdot {
+  float: right;
+  font-size: 20px; }
+
+.ad-thumbnail {
+  width: 65px;
+  height: 65px; }
+
+.flex-right {
+  width: 95%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 7px; }
+
+.head-1 {
+  padding-left: 5px;
+  text-align: left;
+  width: 75%; }
+
+.head-2 {
+  font-size: 12px; }
