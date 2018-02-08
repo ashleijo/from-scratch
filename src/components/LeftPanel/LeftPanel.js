@@ -35,7 +35,7 @@ const LeftPanel = (props) => {
     <p className="more-options">More Options</p>
     </div>
     <div className="left-panel-3">
-    <p className="import-disclaim">We'll import your address book to suggest connections.<b>Learn more</b></p>
+    <p className="import-disclaim">We'll import your address book to suggest connections.<b><a href="/no">Learn more</a></b></p>
     </div>
     </div>
   );

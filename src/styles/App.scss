@@ -4,10 +4,23 @@
 }
 
 .everything {
-  padding-top: 60px;
   display: inline-flex;
   justify-content: space-around;
   flex-wrap: nowrap;
+}
+
+.yw {
+  color: #f6956e;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.first-v {
+  font-weight: bold;
+  width: 98%;
+  height: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .App {
@@ -77,6 +90,8 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+
 
 .pymk-containers {
   width: 711px;

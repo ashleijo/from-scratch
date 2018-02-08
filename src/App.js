@@ -21,6 +21,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         </header>
+        <div className="first-v"><u>Need a fake advertisment to take up space on the screen?? - Well, here's a nice line for you. </u><span className="yw">You're welcome!</span><sup>&nbsp;&nbsp;&nbsp; Ad</sup></div>
         <div className="everything">
         <LeftPanel />
         <div className="flex-this">
