@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './styles/App.css';
 import LeftPanel from './components/LeftPanel/LeftPanel';
 import PendingConnections from './components/PendingConnections/PendingConnections';
