@@ -23,7 +23,7 @@ const RightPanel = () => {
   return (
     <div className="right-panel">
     <p className="first-line"><span className="promoted">Promoted</span> <span className="dotdotdot">…</span></p>
-    <div className="holds-ads">
+    <div>
     {this.state.posts.map((post, i) => {
           return (
 
