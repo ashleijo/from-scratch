@@ -1,4 +1,8 @@
 // @import "./shared.scss";
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -23,11 +27,72 @@
   font-size: large;
 }
 
+.a-box {
+  display: inline-block;
+  text-align: left;
+  font-size: 25px;
+  color: #464646;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: -30px;
+}
+
+.pending {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #f7f7f7;
+  width: 711px;
+  padding-top: 20px;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 1px 1px 0px 1px;
+  box-shadow: 2.5px 3px darkgrey;
+}
+
+.pymk {
+  width: 711px;
+  padding-bottom: 13px;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 1px 1px 0px 1px;
+}
+
 .flex-this {
   display: flex;
+  justify-content: stretch;
   flex-wrap: wrap;
-  width: 800px;
+  width: 711px;
   margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pymk-containers {
+  margin: 0 auto;
+  background: red;
+  background-color: #f7f7f7;
+  box-shadow: 2.5px 3px darkgrey;
+}
+
+.manage-all {
+  font-size: 15px;
+  float: right;
+  padding-right: 25px;
+  margin-top: 6px;
+  color: red;
+}
+
+a:link, a:visited {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {

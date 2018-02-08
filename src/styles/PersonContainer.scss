@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .fullname {
   font-weight: bold;
   padding: 2px;
@@ -10,15 +14,15 @@
 
 .person-container {
   display: inline-block;
-  margin: 1em;
-  border: solid 1px darkgrey;
   padding: 10px;
-  width: 215px;
+  width: 237px;
+  color: #464646;
+  border: solid 1px darkgrey;
 }
 
 .connect-button {
   margin-top: 15px;
-  background-color: #ceddde;
+  background-color: #f7f7f7;
   color: #656565;
   padding: 5px 13px;
   border: solid 1px #656565;
@@ -27,7 +31,7 @@
 }
 
 .connect-button:hover {
-   background-color: #e0eff0;
+   background-color: #ceddde;
 }
 
 .thumbnail {
