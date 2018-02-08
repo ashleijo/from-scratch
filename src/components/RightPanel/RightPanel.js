@@ -12,7 +12,6 @@ const RightPanel = () => {
       <div className="flex-right">
       <img className="ad-thumbnail" src={props.thumbnailUrl} />
       <div className="head-1"><b>{props.title}</b>
-
       <div className="head-2">{props.fullname}</div></div>
       </div>
     );
