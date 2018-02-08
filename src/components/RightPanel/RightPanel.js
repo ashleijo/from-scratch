@@ -4,7 +4,7 @@ import '../../styles/RightPanel.css';
 const RightPanel = () => {
   return (
     <div className="right-panel">
-    right panel!
+    Promoted <span>...</span>
     </div>
   );
 };
