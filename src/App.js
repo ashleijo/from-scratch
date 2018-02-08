@@ -4,6 +4,7 @@ import './styles/App.css';
 import LeftPanel from './components/LeftPanel/LeftPanel';
 import PendingConnections from './components/PendingConnections/PendingConnections';
 import PersonContainer from './components/PersonContainer/PersonContainer';
+import RightPanel from './components/RightPanel/RightPanel';
 import dummyData from './dummy-data';
 
 class App extends Component {
@@ -20,6 +21,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         </header>
+        <div className="everything">
+        <LeftPanel />
         <div className="flex-this">
         <PendingConnections />
         <div className="pymk-containers">
@@ -32,6 +35,8 @@ class App extends Component {
               );
             })}
           </div>
+        </div>
+        <RightPanel />
         </div>
       </div>
     );

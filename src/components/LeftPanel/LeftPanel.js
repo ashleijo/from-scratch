@@ -3,8 +3,8 @@ import '../../styles/LeftPanel.css';
 
 const LeftPanel = () => {
   return (
-    <div className="leftie">
-    hello
+    <div className="left-panel">
+    left panel!
     </div>
   );
 };
