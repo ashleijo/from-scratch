@@ -25,9 +25,7 @@ const RightPanel = () => {
     <div>
     {this.state.posts.map((post, i) => {
           return (
-
               <Deck key={i}  thumbnailUrl={post.thumbnailUrl} title={post.title} fullname={post.fullname}/>
-
             );
           })}
           </div>
